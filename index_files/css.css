@@ -1,0 +1,263 @@
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	.tou{
+		
+		background:rgba(0,0,0,0.18);
+		width: 100%;
+		height: 60px;
+		float: left;
+		position: fixed;
+		top:0;
+		
+	}
+	.weixin{
+		margin: 0 auto ;
+		height: 50px;
+		width: 500px;
+		margin-top: 5px;
+		
+		
+	}
+	.images{
+		width:50px;
+		height: 50px;
+		float: left;
+		width: 12%;
+	}
+	.tou .weixin .images img{
+		
+		width:50px;
+		height: 50px;
+		display: block;
+		float: right;
+
+
+	}
+	.w1{
+		line-height:22px;
+		font-size: 16px;
+		color: #FFFFFF;
+		width:auto; 
+		float:left;
+
+	
+
+	}
+	.w1 .fuzhi{
+		float: left;
+		margin-top: 10px;
+	}
+	.w1 .zhuce{
+		display: flex;
+		align-items: center; 
+	}
+	.zhengwen {
+		margin:0 auto;
+		padding:0;
+		max-width:1000px;
+	
+	}
+
+
+	/*
+	.dibu{
+   
+        max-width: 1000px;
+		position: fixed;
+		bottom:0;
+		margin: 0 auto;
+	}
+	.dibu img{
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+
+	}*/
+	
+	.w2{
+		max-width: 700px;
+		margin: 50px auto 80px auto;
+		text-align: center;
+		width:100%;
+		line-height: 30px;
+	}
+	.zuo{
+		position:fixed;
+		left: 0;
+		top: 30%;
+
+	}
+	.you88888888888{
+		position:fixed;
+		top:50%;
+        left:0;
+        height: 160px;
+        width: 10%;
+        background-image: url(../images/consult.png)  ;
+	background-size: 100%  ;
+	}
+  .you{
+            position:fixed;
+            top:40%;
+            left:0;
+            height:120px;
+            width: 120px;
+            background-image: url(../images/consult.png) ;
+            background-size: 120px;
+      
+        }
+
+    @media screen and (max-width: 500px) {  
+        .you{
+            position:fixed;
+            top:40%;
+            left:0;
+            height:120px;
+            width: 120px;
+            background-image: url(../images/consult.png) ;
+            background-size: 120px;
+      
+        }
+        
+    }
+.tanchuang {
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    display: none;
+    margin-left: -160px;
+    margin-top: -180px;
+    width: 320px;
+    height: 320px;
+    background: #fff;
+    border-radius: 0.5em;
+    text-align: center;
+    z-index: 1000;
+}.tanchuangfg {
+    margin: 0 auto;
+    text-align: center;
+    width: 320px;
+    height: 60px;
+    background: #354faf;
+    border-radius: 0.5em 0.5em 0 0;
+    overflow: hidden;
+}.tanchuangfg p {
+    margin-top: 3%;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+}
+.tanchuang p {
+    margin-top: 20px;
+}
+
+.tanchuangyqm {
+    margin: 0 auto;
+    width: 250px;
+    font-size: 1.8em;
+    border: 1px dashed #ffea00;
+    background: #354faf;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}.tanchuangdownli {
+    width: 320px;
+}.tanchuangdownli a {
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    height: 55px;
+}.tanchuangdown {
+    display: block;
+    width: 200px;
+    height: 28px;
+    margin: 0 auto;
+    margin-top: 6%;
+    padding-top: 4%;
+    border-radius: 0.5em;
+    background: #59c65d;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+}.close {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    background: url(../images/close.png);
+    position: absolute;
+    top: 15px;
+    right: 10px;
+
+}
+.closex {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 10px;
+	right: 10px;
+	text-align: right;
+	font-size: 20px;
+
+}
+	.w3{
+		height: 50px;
+		line-height: 60px;
+		text-align: center;
+		font-size: 25px;
+		margin-top: 10px;
+	
+	}
+	.w4{
+		
+		background: #ffffff;
+		height:70px;
+		line-height: 70px;
+		margin: 0 auto;
+
+		text-align: center;
+		font-size: 25px;
+		border-radius: ;
+		width: 80%;
+		color:#fb1b3b;
+		font-weight: bold;
+
+		margin: 0 auto;
+
+
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+	margin-top:60px;
+
+	}
+	.w5{
+		margin: 0 auto;
+	}
+	.w5 img{
+		width: 100px;
+		display: block;
+		margin: 10px auto;
+	
+		
+	}
+	.w6{
+		font-size: 22px;
+		margin: 10px auto;
+		display:flex;
+		justify-content: center; 
+		align-items: center; 
+	}
+	.w6 img{
+		width: 100px;
+
+	}
+	.w7{ 
+		margin: 0 auto;
+		text-alig
