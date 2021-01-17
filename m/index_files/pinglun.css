@@ -1,0 +1,96 @@
+
+@media screen and (max-width: 960px){
+    header, nav, article, section, footer {
+        width: 90%;
+        padding: 0 5%;
+    }
+   
+}
+/* header, nav, article, section, footer {
+    width: 90%;
+    padding: 0 5%;
+} */
+section li p {
+    margin-left: 45px;
+    line-height: 160%;
+}
+section li p span {
+    display: block;
+    color: #999;
+}
+section li {
+    margin-top: 20px;
+    overflow: hidden;
+}
+section li p small {
+    display: block;
+    color: #999;
+    font-size: 14px;
+}
+li {
+    list-style-type: none;
+}
+article {
+    line-height: 170%;
+}
+article h5 span {
+    color: #607fa6;
+    margin-right: 10px;
+}
+article h5 small {
+    font-size: 16px;
+    margin-left: 12px;
+    background: url(images/zan_1.png) no-repeat;
+    background-size: 18px;
+    padding-left: 19px;
+}
+header, nav, article, section, footer {
+    max-width: 670px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+section h2, article h5 {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: normal;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+section h2 {
+    border-top: 1px dotted #8c8c8c;
+    padding: 26px 0 8px;
+    text-align: center;
+}section h2, article h5 {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: normal;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}section li {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+li {
+    list-style-type: none;
+}
+section li h3 img {
+    width: 35px;
+}
+section img{
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+}
+section li h3 {
+    float: left;
+    width: 35px;
+}
