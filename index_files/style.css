@@ -1,0 +1,59 @@
+html,body{ margin: 0; z-index: 0}
+body{ background-attachment:fixed;background-position: center}
+
+#main{ margin: 0 auto;  font-size: 0.25rem; max-width: 640px; position: relative; background-color: white; overflow: hidden}
+#main * { max-width: inherit;}
+
+#nav {}
+#nav_float { position: fixed; top: 0; background: url("image/nav_background.png"); width: 100%; z-index:1000}
+.nav_list { line-height: 0.6rem; height: 0.6rem; padding-left: 0.2rem;}
+.nav_list div { background-repeat: no-repeat; background-size: 70%; background-position-y: center; display: inline-block; height: inherit;  width: 2rem; vertical-align: middle}
+#nav_logo{ display: inline-block; vertical-align: top; background-size: 60%; background-repeat: no-repeat; background-position: center}
+
+#image { font-size: 0}
+
+#attention{ margin-top: 0.4rem;}
+.attentionList{ margin: 0.2rem; padding-top: 0.3rem; border-top: 0.01rem solid #888; display: none}
+.attentionUser{ height: 1rem; line-height: 1rem; color: #7777bf}
+.attentionImage{  background-repeat: no-repeat; background-size: 100%; height: 0.7rem; width: 0.7rem; display: inline-block; vertical-align: middle; margin-right: 0.2rem; border-radius: 5rem;}
+.attentionValue { font-size: 0.2rem; padding: 0.35rem 0;}
+.attentionOther{ color: darkgray; height: 0.6rem}
+.attentionOther div{ display: inline-block; line-height: 0.6rem;}
+.attentionTime { font-size: 0.2rem;float: left}
+.attentionFabulous {  float: right; color: #7777bf}
+
+#bottomNav {  width: 100%; font-size: 0; margin-top: 0.2rem}
+#bottomNav img { position: fixed; bottom: 0; width: inherit; height: auto}
+
+#copyright { text-align: center; color: darkslategray; font-size: 0.2rem;color:rgb(177, 12, 0);line-height:0.4rem}
+#copyright1 { text-align: center; color: darkslategray; font-size: 0.2rem;color:rgb(177, 12, 0);line-height:0.4rem}
+
+#floatWindows { position: fixed;margin:auto;top:0;bottom:0;}
+#floatWindows img { width: inherit; height: inherit}
+
+/*#mWindows{ position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-image: url("image/nav_background.png");text-align: center; z-index: 2000}
+#mwMain { position:fixed; margin:auto; top:0; bottom:0; left: 0; right: 0;  background-color: white; width: 6rem; border-radius: 0.2rem; overflow: hidden}
+#mwTitle { padding-left:0.2rem; line-height: 1rem; font-size: 0.5rem; color: white;}
+#mwHeight{ padding-bottom: 0.2rem;}
+#mw_wx,#mw_key,#mwTips{ margin-top: 0.4rem}
+#mwTips{ color: #888888}
+#mwMain input { border: 1px dashed #ffea00; color:#fff;font-weight: bold;cursor: pointer; line-height: 0.6rem; text-align: center; font-size: 0.4rem;width:4rem;margin-top: 0.1rem;}
+#mwClose{ background: url("image/Close.png") no-repeat; background-size: 100%; width: 0.8rem; height: 0.8rem; position: absolute; top: 0.1rem; right: 0.1rem}
+#mwCode{ height: 3rem; width: 3rem; margin: 0 auto;  display: block; margin-top: 0.2rem}
+#mwCodeMain { text-align: center; color: #888888}*/
+
+#copyInput{display: none}
+
+#code{ height: 5rem; width: 5rem; margin: 0 auto;display: block}
+#codeMain { text-align: center; color: #888888}
+
+#poster{ width: 100%; position: relative;overflow: hidden}
+#posterRegion { width: inherit; font-size: 0; white-space:nowrap; overflow-x: scroll}
+#posterRegion img { width: inherit;}
+#posterPage { background: url("image/nav_background.png"); display: inline-block; padding: 0 0.08rem; border-radius: 0.1rem; position: absolute; right: 0.2rem; bottom: 0.2rem;  color: white}
+
+#floatUser { box-shadow: 0 0 8px #333; margin-left: 0.1rem; opacity: 0; height: 0.4rem; line-height: 0.4rem; width: 4rem; position: fixed; top: 40%; background-color: white; border-radius: 1rem; padding: 0.06rem;  white-space:nowrap; overflow: hidden;}
+#floatUser div{ display: inline-block;height: inherit; line-height: inherit;vertical-align: top;}
+#floatUserImage { width: 0.4rem; border-radius: inherit; background-color: #ffea00; background-size: 100%}
+#floatUserValue { width: 3.5rem; overflow: hidden; text-overflow: ellipsis;}
+
