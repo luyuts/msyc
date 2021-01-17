@@ -71,7 +71,7 @@ img {
 .dibu
 {
     background: rgba(0,0,0,0.50);    width: 100%;
-    max-width:1000px;
+    max-width:;
     margin: 0 auto;
     display: block;
     height: 140px;
@@ -84,7 +84,7 @@ img {
 }
 .dibumiddle
 {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     padding-top: 10px;
     font-size: 25px;
@@ -480,15 +480,3 @@ img {
 }
 
 }
-
-
-
-
-
-
-
-
-/*
-*
-*
-*/
